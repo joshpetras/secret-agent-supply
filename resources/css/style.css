@@ -108,9 +108,5 @@ footer {
   display: flex;
   align-items: center;
   background-color: black;
-  height: 5rem;
-}
-
-footer span {
-  text-align: left;
+  padding: 5rem 0;
 }
