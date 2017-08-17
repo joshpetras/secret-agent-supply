@@ -14,9 +14,21 @@ header {
   background-color: black;
 }
 
+header div {
+  display: flex;
+  align-items: center;
+}
+
+header span {
+  margin-top: 0.66rem;
+  margin-bottom: 0.66rem;
+  margin-left: 0.5rem;
+}
+
 header img {
   height: 1.5rem;
   width: auto;
+  margin: auto 0.5rem;
 }
 
 .banner {
@@ -36,6 +48,7 @@ header img {
 nav {
   background-color: firebrick;
 }
+
 nav ul {
   display: flex;
   justify-content: space-between;
