@@ -1,4 +1,4 @@
-html {
+  html {
   font-family: Helvetica;
   font-size: 18px;
   color: white;
@@ -139,30 +139,72 @@ footer {
 }
 
 @media only screen and (max-width: 1024px) {
-
-html {
-  font-size: 16px;
-}
+  html {
+    font-size: 16px;
+  }
   .site-container {
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
   }
-
   nav .desktop.site-container {
     display: none;
   }
-
   nav .mobile.site-container {
     display: flex;
     justify-content: center;
   }
-
   .product.watch {
     display: none;
   }
-
   .products .product {
     width: 47%;
   }
 }
+
+@media only screen and (max-width: 470px) {
+  strong {
+    font-size: 0.77rem;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  .site-container {
+    max-width: 470px;
+  }
+  .banner {
+    height: 15rem;
+  }
+  .banner .site-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner .announcements {
+    margin-top: 10rem;
+    padding: 1rem 0 1rem 2rem;
+    width: 100%;
+  }
+  .products {
+    justify-content: center;
+  }
+  .products .product {
+    width: 90%;
+  }
+  .product.glasses {
+    display: none;
+  }
+  .info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .info-item {
+    width: 90%;
+  }
+  .info .hours {
+    margin-top: 0.5rem;
+  }
+  footer div {
+    display: flex;
+    justify-content: center;
+  }
